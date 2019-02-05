@@ -106,8 +106,10 @@
 
     p > code {
       color: $git-black-color;
-      padding: 0.1em 0.1em 0.1em 0.1em;
+      padding: 0.1em 0.3em 0.1em 0.3em;
       border-radius: 0.3em;
+      background-color: $light-color;
+      font-size: 19px;
     }
     ul, ol {
         padding: $base-spacing/5 $base-spacing;

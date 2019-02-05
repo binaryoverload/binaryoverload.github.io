@@ -5,7 +5,7 @@ url: "http://binaryoverload.co.uk"
 
 # This will show up at the top of index page
 site_heading: >
-    binaryoverload <span class="faded">'s blog</span>
+    binaryoverload<span class="faded">'s</span> <span class="faded">blog</span>
 
 email: wegg7250@gmail.com
 author: William Oldham
@@ -21,24 +21,20 @@ copyright: BinaryOverload
 intro: true         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.com/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+    Welcome! 
 
 permalink: pretty
 
 # Comments are powered by disqus
 comments: true
+disqus_short_name: binaryoverload-1
 
 # keep about_stub roughly 12 words long for best results
 # This will show up at the bottom of each post
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    Tech enthusiast, amatateur photographer and a guy that says random stuff on the internet sometimes
 
 about_footer: true
 
@@ -46,7 +42,7 @@ twitter_username: binary_overload
 github_username: binaryoverload
 
 favicon: true
-favicon_location: "images/favicon.ico"
+favicon_location: "/images/favicon.ico"
 
 profile_picture: /images/profile-picture.png
 paginate: 5
