@@ -210,22 +210,14 @@ footer {
     min-height: 70px;
     //background-color: $accent-color;
 }
-.back-outer {
-    text-align: center;
-    width: $big-circle-size;
-    height: $big-circle-size;
-    //border: 2px solid #000;
-    border-radius: $big-circle-size;
-    background-color: #000;
-    padding: 0;
-}
+
 .back-inner {
     height: $big-circle-size;
     width: $big-circle-size;
-    border-radius: 24px;
+    border-radius: 2em;
     background: $light-color;
     color: #000;
-    font-size: 1em;
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
