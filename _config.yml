@@ -2,7 +2,6 @@
 
 title: binaryoverload
 url: "http://binaryoverload.co.uk"
-baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
@@ -49,7 +48,7 @@ github_username: binaryoverload
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/profile-picture.png
+profile_picture: /images/profile-picture.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
