@@ -1,15 +1,15 @@
 # User Settings | Edit there as per required
 
 title: accent
-url: "http://ankitsultana.com"
-baseurl: "/accent"
+url: "http://binaryoverload.co.uk"
+baseurl: "/"
 
 # This will show up at the top of index page
 site_heading: >
     foo <span class="faded">'s blog</span>
 
-email: your@email.com
-author: yourname
+email: wegg7250@gmail.com
+author: William Oldham
 # This description will show up in google search results
 # (for index page) etc.
 description: >
