@@ -49,7 +49,7 @@ github_username: binaryoverload
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.png
+profile_picture: images/profile-picture.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
