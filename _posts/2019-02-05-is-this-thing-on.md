@@ -6,7 +6,7 @@ Is probably one of the most common title used for a first blog post. Along with 
 
 Either way, I'm glad you're here! And I hope you'll stay long enough to take an occasional glance at my *hopefully* interesting posts.
 
-## What can you expect from me?
+### What can you expect from me?
 
 Well... I'm not sure at the moment. What is certain is that almost all of my blog posts will be small; each post will probably be a 5 minute read or less. This will be for two reasons:
 1. So I don't get easily bored of writing (And trust me, it would happen)
