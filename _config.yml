@@ -29,7 +29,7 @@ short_bio: >
     </a>
     to know how.
 
-permalink: /:title.html
+permalink: pretty
 
 # Comments are powered by disqus
 comments: true
