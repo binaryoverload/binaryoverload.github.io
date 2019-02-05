@@ -2,7 +2,7 @@
     <section class="intro">
         <div class="container">
             {% if site.profile_picture %}
-                <img id="intro-img" src="{{ site.profile_picture }}">
+                <a href="{{ site.base_url }}/about"><img id="intro-img" src="{{ site.profile_picture }}"></a>
             {% endif %}
             <h2 class="site-name">
                 {% if site.site_heading %}
