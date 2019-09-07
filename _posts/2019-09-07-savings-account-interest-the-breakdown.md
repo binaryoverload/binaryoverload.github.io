@@ -15,13 +15,15 @@ For a long time, I was really confused with savings accounts and how the interes
 
 ## What is interest?
 
-For those new to the party, a savings account is where you put money into a special account that allows you to gain extra money on top of this. This extra money is almost the banks thanking you for storing your money with them! The extra money that the bank pays you is determined by the **interest**. The interest is a percentage amount that can be paid yearly or monthly (There are other interest periods however yearly and monthly are the most common!). 
+For those new to the party, a savings account is where you put money into a special account that allows you to gain extra money on top of this. This extra money is almost the banks thanking you for storing your money with them! The extra money that the bank pays you is determined by the **interest**. The interest is a percentage amount that can be paid yearly or monthly (There are other compounding periods however yearly and monthly are the most common!). 
 
-For example, if I had £1000 in a yearly savings account with an interest rate of $$5%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid $$5%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $$£1000\times (1.05)^{12}=£1795.86 $$. 
+For example, if I had £1000 in a yearly savings account with an interest rate of $$5%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid at $$5%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $$£1000\times (1.05)^{12}=£1795.86 $$. 
+
+In this post you will notice me reference **compounding interest** or **compounding periods.** When interest is said to be compounded, it just means that interest is calculated for that compounding period whether that be daily, monthly, quarterly, bi-annually or yearly. 
 
 ## Gross interest
 
-Gross interest is the total amount of interest that you will be paid every year. For yearly savings accounts, this gross interest will represent the interest that will be paid at the end of the yearly period. If you have a monthly savings account (That is, a savings account that pays interest every month) then the gross interest will be the monthly interest multiplied by 12. In almost all cases, the banks do not tell you the monthly interest and instead just give you the gross interest. For the Lloyds Child Saver, the gross interest is $$1.98%$$. As explained before, this is all the months interest added up! To get the monthly interest, all we have to do is divide the interest by 12: $$ \frac{1.98%}{12}=0.165%$$.
+Gross interest is the total amount of interest that you will be paid every year. For yearly savings accounts, this gross interest will represent the interest that will be paid at the end of the yearly period. If you have a monthly savings account (That is, a savings account that pays interest every month) then the gross interest will be the monthly interest multiplied by 12. In almost all cases, the banks do not tell you the monthly interest and instead just give you the gross interest. For the Lloyds Child Saver, the gross interest is $$1.98\%$$. As explained before, this is all the months interest added up! To get the monthly interest, all we have to do is divide the interest by 12: $$ \frac{1.98\%}{12}=0.165\%$$.
 
 ## AER
 
@@ -30,7 +32,16 @@ AER stands for **A**nnual **E**quivalent **R**ate which is a fancy way of saying
 To calculate the AER can be a little confusing. For now, I'll put down the entire formula and then explain it bit by bit.
 
 $$
-
-AER=(1+\frac{\textrm{interest}}{\textrm{number of pay periods}})^{\textrm{number of pay periods}})-1
-
+AER=(1+\frac{\textrm{interest}}{\textrm{number of compounding periods}})^{\textrm{number of pay periods}})-1
 $$
+
+I know this looks confusing but, once you wrap your head around it, it should make sense!
+
+You may notice $$\frac{\textrm{interest}}{\textrm{number of compounding periods}}$$ looks familiar! This is the same calculation we did from the gross interest to work out the interest for each compounding period. Say for example the gross interest is $$2.4\%$$ and is paid monthly. The interest applied each month will be $$\frac{2.4\%}{12}=0.2\%$$. 
+
+If we replace these numbers into the formula then we get
+$$
+AER=(1+\frac{0.024}{12})^{12})-1
+$$
+
+And we're done! So, what's happening here? 
