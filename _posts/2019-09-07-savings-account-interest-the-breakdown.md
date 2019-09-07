@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Savings account interest: the breakdown'
-date: 2019-09-07T10:19:44.957Z
+date: 2019-09-07T21:50:44.957Z
 ---
 > This blog post is aimed at people in the UK. The information contained within will most likely not be applicable to other countries!
 >
