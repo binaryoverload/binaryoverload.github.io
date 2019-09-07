@@ -17,7 +17,7 @@ For a long time, I was really confused with savings accounts and how the interes
 
 For those new to the party, a savings account is where you put money into a special account that allows you to gain extra money on top of this. This extra money is almost the banks thanking you for storing your money with them! The extra money that the bank pays you is determined by the **interest**. The interest is a percentage amount that can be paid yearly or monthly (There are other interest periods however yearly and monthly are the most common!). 
 
-For example, if I had £1000 in a yearly savings account with an interest rate of $$5\%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid $$5\%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $ £1000\times (1.05)^{12}=£1795.86 $. 
+For example, if I had £1000 in a yearly savings account with an interest rate of $$5\%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid $$5\%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $$£1000\times (1.05)^{12}=£1795.86 $$. 
 
 ## Gross interest
 
