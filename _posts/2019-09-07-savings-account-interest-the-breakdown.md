@@ -41,7 +41,7 @@ You may notice $$\frac{\textrm{interest}}{\textrm{number of compounding periods}
 
 If we replace these numbers into the formula then we get
 $$
-AER=(1+\frac{0.024}{12})^{12})-1
+AER=(1+\frac{0.024}{12}^{12})-1
 $$
 
 And we're done! So, what's happening here? 
