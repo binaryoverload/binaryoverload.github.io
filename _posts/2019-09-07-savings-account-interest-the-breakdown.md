@@ -17,8 +17,18 @@ For a long time, I was really confused with savings accounts and how the interes
 
 For those new to the party, a savings account is where you put money into a special account that allows you to gain extra money on top of this. This extra money is almost the banks thanking you for storing your money with them! The extra money that the bank pays you is determined by the **interest**. The interest is a percentage amount that can be paid yearly or monthly (There are other interest periods however yearly and monthly are the most common!). 
 
-For example, if I had £1000 in a yearly savings account with an interest rate of $$5\%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid $$5\%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $$£1000\times (1.05)^{12}=£1795.86 $$. 
+For example, if I had £1000 in a yearly savings account with an interest rate of $$5%$$ then each year I would be paid $$£50$$ of interest. If the savings account was monthly and the interest was paid $$5%$$ each month (This is impossible to find in reality but provides a good demonstration) then at the end of the year I would be paid $$£1000\times (1.05)^{12}=£1795.86 $$. 
 
 ## Gross interest
 
-Gross interest is the total amount of interest that you will be paid every year. For yearly savings accounts, this gross interest will represent the interest that will be paid at the end of the yearly period. If you have a monthly savings account (That is, a savings account that pays interest every month) then the gross interest will be the monthly interest multiplied by 12. In almost all cases, the banks do not tell you the monthly interest and instead just give you the gross interest. For the Lloyds Child Saver, the gross interest is $$1.98\%$$. As explained before, this is all the months interest added up! To get the monthly interest, all we have to do is divide the interest by 12: $$ \frac{1.98\%}{12}=0.165\%$$.
+Gross interest is the total amount of interest that you will be paid every year. For yearly savings accounts, this gross interest will represent the interest that will be paid at the end of the yearly period. If you have a monthly savings account (That is, a savings account that pays interest every month) then the gross interest will be the monthly interest multiplied by 12. In almost all cases, the banks do not tell you the monthly interest and instead just give you the gross interest. For the Lloyds Child Saver, the gross interest is $$1.98%$$. As explained before, this is all the months interest added up! To get the monthly interest, all we have to do is divide the interest by 12: $$ \frac{1.98%}{12}=0.165%$$.
+
+## AER
+
+AER stands for **A**nnual **E**quivalent **R**ate which is a fancy way of saying that this is the interest rate that you would get if you were paid yearly. Why is this important you ask? Well, to be able to compare savings accounts you need some information that is standardised for all accounts. The AER means that you will definitely know that with a higher AER, you will get a higher amount of interest paid no matter what the payment period.
+
+To calculate the AER can be a little confusing. For now, I'll put down the entire formula and then explain it bit by bit.$$
+
+AER=(1+\frac{interest}{number of pay periods})^{number of pay periods})-1
+
+$$
