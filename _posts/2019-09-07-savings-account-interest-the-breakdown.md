@@ -50,7 +50,7 @@ $$
 And we're done! So, what's happening here? 
 1. We are taking the interest that's **compounded** every month and adding it to one to make it into a increasing multiplier. $$1+0.002=1.002$$ equates to $$100\%+0.2\%=100.2\%$$ meaning "take the existing amount and add 0.2% to it". This is the multiplier we would use if we wanted to work out how much we had in our savings account _after_ interest had been applied. 
 2. We then raise this multiplier to the power of 12 to simulate the interest being added over the period of a year: $$100.2\%^{12}=102.42\%$$ This is the AER in it's essential form.
-3. The last step is to subtract $$100%$$ (1) from the result to get a result that is easier to compare to the original gross interest value. $$2.42\%$$ is the final AER we get for a gross interest of $$2.4%$$.
+3. The last step is to subtract $$100\%$$ (1) from the result to get a result that is easier to compare to the original gross interest value. $$2.42\%$$ is the final AER we get for a gross interest of $$2.4\%$$.
 
 You might be able to see that a gross interest of $$2.4\%$$ is better to be applied monthly over a year rather than just once a year. Let's compare other values:
 
