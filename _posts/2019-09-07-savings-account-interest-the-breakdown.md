@@ -31,6 +31,6 @@ To calculate the AER can be a little confusing. For now, I'll put down the entir
 
 $$
 
-AER=(1+\frac{interest}{number of pay periods})^{number of pay periods})-1
+AER=(1+\frac{\textrm{interest}}{\textrm{number of pay periods}})^{\textrm{number of pay periods}})-1
 
 $$
