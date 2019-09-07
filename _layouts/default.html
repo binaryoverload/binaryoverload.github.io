@@ -53,6 +53,10 @@
     {% else %}
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
+
+    {% if page.url == "/" %}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
 </head>
 <body>
     <div class="wrapper">
@@ -82,5 +86,18 @@
     {% endif %}
     {% if site.tracking_id %}
         {% include analytics.html %}
+    {% endif %}
+    {% if page.url == "/" %}
+    <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", function(user) {
+            if (!user) {
+              window.netlifyIdentity.on("login", function() {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
     {% endif %}
 </body>
