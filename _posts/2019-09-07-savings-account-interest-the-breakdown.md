@@ -27,7 +27,9 @@ Gross interest is the total amount of interest that you will be paid every year.
 
 AER stands for **A**nnual **E**quivalent **R**ate which is a fancy way of saying that this is the interest rate that you would get if you were paid yearly. Why is this important you ask? Well, to be able to compare savings accounts you need some information that is standardised for all accounts. The AER means that you will definitely know that with a higher AER, you will get a higher amount of interest paid no matter what the payment period.
 
-To calculate the AER can be a little confusing. For now, I'll put down the entire formula and then explain it bit by bit.$$
+To calculate the AER can be a little confusing. For now, I'll put down the entire formula and then explain it bit by bit.
+
+$$
 
 AER=(1+\frac{interest}{number of pay periods})^{number of pay periods})-1
 
