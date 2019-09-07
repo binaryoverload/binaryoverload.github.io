@@ -61,3 +61,5 @@ You might be able to see that a gross interest of $$2.4\%$$ is better to be appl
 |Quarterly (4)|2.4%|2.42169%|
 |Bi-Annually (2)|2.4%|2.41440%|
 |Annually (1)|2.4%|2.40000%|
+
+As you can see by these values, you get paid more interest the more frequent your compounding period is! So even if two bank accounts have the same gross interest, the AER will show you that the one that pays you monthly will pay you more than the account that pays you annually.
