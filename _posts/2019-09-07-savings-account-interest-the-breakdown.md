@@ -31,17 +31,33 @@ AER stands for **A**nnual **E**quivalent **R**ate which is a fancy way of saying
 
 To calculate the AER can be a little confusing. For now, I'll put down the entire formula and then explain it bit by bit.
 
+
 $$
 AER=(1+\frac{\textrm{interest}}{\textrm{number of compounding periods}})^{\textrm{number of pay periods}})-1
 $$
+
 
 I know this looks confusing but, once you wrap your head around it, it should make sense!
 
 You may notice $$\frac{\textrm{interest}}{\textrm{number of compounding periods}}$$ looks familiar! This is the same calculation we did from the gross interest to work out the interest for each compounding period. Say for example the gross interest is $$2.4\%$$ and is paid monthly. The interest applied each month will be $$\frac{2.4\%}{12}=0.2\%$$. 
 
+
 If we replace these numbers into the formula then we get
 $$
-AER=(1+\frac{0.024}{12}^{12})-1
+AER=(1+\frac{0.024}{12})^{12})-1
 $$
 
 And we're done! So, what's happening here? 
+1. We are taking the interest that's **compounded** every month and adding it to one to make it into a increasing multiplier. $$1+0.002=1.002$$ equates to $$100\%+0.2\%=100.2\%$$ meaning "take the existing amount and add 0.2% to it". This is the multiplier we would use if we wanted to work out how much we had in our savings account _after_ interest had been applied. 
+2. We then raise this multiplier to the power of 12 to simulate the interest being added over the period of a year: $$100.2\%^{12}=102.42\%$$ This is the AER in it's essential form.
+3. The last step is to subtract $$100%$$ (1) from the result to get a result that is easier to compare to the original gross interest value. $$2.42\%$$ is the final AER we get for a gross interest of $$2.4%$$.
+
+You might be able to see that a gross interest of $$2.4\%$$ is better to be applied monthly over a year rather than just once a year. Let's compare other values:
+
+|Compounding period (Number of times a year)|Gross interest|AER|
+|Daily (365)|2.4%|2.42895%|
+|Weekly (52)|2.4%|2.42846%|
+|Monthly (12)|2.4%|2.42658%|
+|Quarterly (4)|2.4%|2.42169%|
+|Bi-Annually (2)|2.4%|2.41440%|
+|Annually (1)|2.4%|2.40000%|
