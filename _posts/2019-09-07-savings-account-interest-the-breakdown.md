@@ -67,4 +67,5 @@ As you can see by these values, you get paid more interest the more frequent you
 Thanks for reading! This post was a bit longer than I usually would have liked to aim for but I wanted to make sure I covered everything I had in my head!
 
 
+
 If you have an questions or suggestions, feel free to drop me a line at wegg7250@gmail.com or DM me on Discord: BinaryOverload#2382 😊
