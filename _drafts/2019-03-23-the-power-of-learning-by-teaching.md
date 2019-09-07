@@ -26,3 +26,5 @@ Tutoring comes a unique experience in that you are placed in a position of relat
 ![with great power comes great responsibility](https://geekwisdom.files.wordpress.com/2011/09/quote-from-the-comic.jpg)
 
 
+Since the other party is not as knowledgeable as you in the subject, they will likely look up to you in a way and trust that what you're saying is true. I think this responsibility of not feeding a person the wrong information puts a lot of people off tutoring; they are afraid that they don't know "everything" as so are unable to teach someone. This is not completely true - tutoring is not just knowing the subject area but being able to explain a concept to someone in an understandable manner. As a tutor, you also need to be admit that you don't know or that you are wrong. This will be covered in a future blog post.
+
