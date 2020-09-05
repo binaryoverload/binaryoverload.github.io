@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Being IT Support: A nightmare in domain-specific knowledge"
-date: 2020-09-05T11:09:10.571Z
+date: 2020-09-04T11:09:10.571Z
 ---
 > **Disclaimer:** This article is based on my experience working with smaller companies and schools in the UK. With larger companies, roles are spread out between more people which reduces the complexity of day-to-day tasks.
 
