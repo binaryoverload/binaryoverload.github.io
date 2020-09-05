@@ -28,5 +28,5 @@ collections:
         file: 'about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: '' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
